@@ -1,0 +1,51 @@
+#headerUL li {
+    text-transform: uppercase;
+    list-style-type: none;
+    display: inline;
+    padding: 10px 15px;
+    color: white;
+    font-family: sans-serif;
+}
+
+#headerUL li a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: normal;
+    transition: all ease-in, .5s;
+}
+
+#headerUL li:hover a {
+    color: darkred;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+#headerUL {
+    background-color: rgba(0, 0, 0);
+    display: flex;
+    margin-top: 0px;
+    padding: 15px 20px;
+}
+
+#mainLiHeading {
+    float: left !important;
+    border: 10px solid;
+    border-image-source: linear-gradient(to left, #c832db, #ec3a3a);
+    border-image-slice: 1;
+    border-width: 5px;
+    font-size: 28px;
+    margin-right: 900px;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.linkLIHeader {
+    margin-top: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}

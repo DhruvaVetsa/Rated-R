@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0px;
+    background: url('/images/bg.jpg');
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.linkLIHeader {
+    margin-top: 10px;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    font-size: 170px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+h2 {
+    text-transform: none;
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: -140px;
+}
+

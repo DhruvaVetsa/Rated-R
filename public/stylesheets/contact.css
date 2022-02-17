@@ -1,0 +1,63 @@
+form {
+    background-color: rgba(0, 0, 0, .8);
+    height: 603px;
+    padding: 20px;
+    width: 97.35%;
+    margin: auto;
+    vertical-align: middle;
+}
+
+h1 {
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 100px;
+}
+
+p {
+    text-transform: uppercase;
+    color: gray;
+    text-align: center;
+    font-size: 10pt;
+}
+
+input[type="text"], input[type="email"], input[type="number"] {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 400px;
+    padding: 10px 15px;
+    padding-left: 0px;
+    margin: auto;
+    display: block;
+    font-size: 11pt;
+    outline: none;
+}
+
+input[type="checkbox"], label {
+    text-align: center;
+    color: gray;
+    font-size: 10pt;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="submit"] {
+    border: 10px solid;
+    border-image-source: linear-gradient(to left, #c832db, #ec3a3a);
+    border-image-slice: 1;
+    border-width: 5px;
+    background-color: transparent;
+    color: white;
+    letter-spacing: 3px;
+    padding: 18px 100px;
+    width: 30%;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+}

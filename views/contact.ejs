@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/stylesheets/common.css">
+    <link rel="stylesheet" href="/stylesheets/contact.css">
+</head>
+<body>
+    <ul id="headerUL">
+      <li id="mainLiHeading">rated r</li>
+      <li class="linkLIHeader"><a href="/">Home</a></li>
+      <li class="linkLIHeader"><a href="/about">About</a></li>
+      <li class="linkLIHeader"><a href="/gallery">Gallery</a></li>
+      <li class="linkLIHeader"><a href="/contact">Contact</a></li>
+    </ul>
+    <div style="width: 100%; background : url('/images/AboutImgBackground.jpg'); background-position: auto; background-repeat: no-repeat; background-size: cover; height: 643px; margin-top: -21px;">
+        <form action="/sendMail" method="post">
+            <h1>RESERVATION</h1><br>
+            <p>Book Your Ticket</p>
+            <input type="text" name="nameOfPerson" id="nameOfPersonTB" placeholder="NAME" required><br><br>
+            <input type="email" name="personEmail" id="personEmail" placeholder="EMAIL" required><br><br>
+            <input type="number" name="numberOfPeople" id="nameOfPersonTB" placeholder="NUMBER OF PEOPLE" required><br>
+            <center>
+                <input type="checkbox" name="agreeBtn" id="agreeCheckBoxBtn" required title="Please fill this Checkbox if you want to proceed"> <label>I agree that my submitted data is being collected and stored.</label>
+            </center>
+            <input type="submit" value="Book">
+        </form>
+    </div>    
+</body>
+</html>
